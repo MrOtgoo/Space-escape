@@ -1,0 +1,160 @@
+body {
+  background: url("Background.png");
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  background-size: cover;
+  text-align: center;
+}
+#board {
+  width: 732px;
+  height: 540px;
+  /* background: url("); */
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-size: cover;
+  border: 3px solid brown;
+}
+#board div {
+  width: 244px;
+  height: 180px;
+  background-image: url("sgr\ A_\ ESO\ and\ M.\ Kornmesser\ 690.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#board div img {
+  width: 90px;
+  height: 90px;
+}
+#score-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: #121010;
+text-align: center;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+}
+#score{
+font-size: 40px;
+color: #141414;
+text-align: center;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+/* h1 {
+    text-align: center;
+  }
+  
+  .game-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+  
+  .hole {
+    width: 100px;
+    height: 100px;
+    background-color: #9e6400;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .mole {
+    width: 80px;
+    height: 80px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    pointer-events: none;
+  }
+   */
+/* <div style="width: 500px; height: 500px; background-color: white">
+   hello
+ </div> */
+#againButton{
+  font-size: 40px;
+  text-align: center;
+  color: rgb(14, 15, 15);
+  border: none;
+  background-color: transparent;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.face {
+  background-image: url("background_img.jpeg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+
+}
+#header{
+  background-color: transparent;
+  font-size: 30px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+#scorepage{font-size: 30px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+}
+#header1{font-size: 20px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;}
+
+#getback{
+  width: 100%;
+  height: 100%;
+  padding-left:1200px;
+  /* padding-bottom:2000px; */
+  display: block;
+  font-size: 20px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  font-size: 24px;
+  background-color: transparent;
+  color: #faf8fa;
+  border-radius: 30%;
+  font-size: 30px;
+  border: none;
+  justify-content: space-between;
+color: #fff;
+text-align: center;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;}

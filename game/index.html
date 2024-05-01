@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Whack-a-Mole Game</title>
+  </head>
+  <body>
+    <h1 id="header">Whack-a-Mole Game</h1>
+    <p id="scorepage">
+      Score:
+      <span id="score"></span>
+    </p>
+    <a href="../index.html"> <button id="getback">Back</button></a>
+    <p id="header1">Player Name: <span id="player"></span></p>
+    <div id="board"></div>
+    <div
+      id="game-over-box"
+      style="
+        position: absolute;
+        top: 0;
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+      "
+    >
+
+      <div style="width: 500px; height: 500px" id="score-box">
+        <span>Game Over</span>
+        <button id="againButton">AGAIN</button>
+        <span>Score</span>
+        <span
+          ><img src="arrow-down.png" width="60px" height="60px" alt=""
+        /></span>
+      </div>
+    </div>
+
+    <table></table>
+    <script src="index.js"></script>
+  </body>
+</html>
